@@ -1,0 +1,17 @@
+.validation-summary{
+  display: flex;
+  flex-direction:column;
+  margin-top:16px;
+}
+
+.validation-summary .error{
+  flex-direction: row;
+  display:flex;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  margin: 5px;
+  padding: 10px;
+  color: #a94442;
+  border-radius: 4px;
+  font-size: 80%;
+}

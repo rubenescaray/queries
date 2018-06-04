@@ -1,0 +1,21 @@
+@import './styles/table.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+.page {
+  display: flex;
+  padding: 10px 2em 0;
+
+}
+.content {
+  width: 100%;
+}
+
+.ReactTable .rt-table {
+  background-color: #fff;
+}

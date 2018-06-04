@@ -1,0 +1,11 @@
+.groupby
+{
+  display: flex;
+  flex-direction:column;
+}
+
+.groupby .horizontal
+{
+  display: flex;
+  flex-direction: row;
+}

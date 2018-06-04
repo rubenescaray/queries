@@ -1,0 +1,9 @@
+.ReactTable .-pagination .-pageInfo {
+    display: inline-block;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.ReactTable .-pagination .-pageSizeOptions {
+    margin: 0;
+}

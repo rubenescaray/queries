@@ -1,0 +1,21 @@
+.footerAggregation{
+  flex-direction: row;
+  display:flex;
+  background-color: #ffffff;
+  border: 0px solid #e6e6e6;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.footerAggregation .column {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  padding-left:20px;
+}
+.footers
+{
+  display: flex;
+  flex-direction:column;
+}

@@ -1,0 +1,15 @@
+.field {
+  flex-direction: row;
+  display:flex;
+  background-color: #ffffff;
+  margin: 0px;
+}
+.field .column {
+  display: flex;
+  flex-basis: auto;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 12px;
+  /*width: 20%;*/
+  float: left;
+}

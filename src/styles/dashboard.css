@@ -1,0 +1,31 @@
+.dashboard-form-container {
+  margin-right: 190px;
+  margin-top: 10px;
+}
+
+.target-box {
+  width: 30%;
+}
+
+.widgets-navigation-icon {
+  display: none;
+}
+
+/* screen width less than 600px (smartphones) */
+@media only screen and (max-width: 600px) {
+  .widget-list {
+    display: none;
+  }
+  .dashboard-form-container {
+    margin-right: 0px;
+  }
+  .page {
+    padding: 0px;
+  }
+  .target-box {
+    width: 60%;
+  }
+  .widgets-navigation-icon {
+    display: inline-block;
+  }
+}
